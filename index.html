@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Birthday Gift ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- Nhạc nền -->
+
+    <audio id="bgMusic" loop>
+        <source src="music/loveyou.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <!-- Màn hình đầu -->
+
+    <div id="start">
+
+        <h1>🎂 Happy Birthday 🎂</h1>
+
+        <p>
+            Có một món quà nhỏ dành cho em ❤️
+        </p>
+
+        <button onclick="openGift()">
+            Mở quà 🎁
+        </button>
+
+    </div>
+
+
+    <!-- Lá thư -->
+
+    <div id="letter">
+
+        <h1>💌 Gửi em ❤️</h1>
+
+        <p id="text1"></p>
+
+        <p id="text2"></p>
+
+        <p id="text3"></p>
+
+        <p id="text4"></p>
+
+        <p id="text5"></p>
+
+
+        <!-- Gallery -->
+
+        <div class="gallery">
+
+            <h2>📸 Một chút về em</h2>
+
+            <div class="imageBox">
+
+                <span class="sparkle s1">✦</span>
+                <span class="sparkle s2">✧</span>
+                <span class="sparkle s3">✦</span>
+                <span class="sparkle s4">✧</span>
+
+                <img
+                    id="mainImage"
+                    src="images/anh1.jpg"
+                >
+
+            </div>
+
+
+            <div class="buttons">
+
+                <button onclick="prevImage()">
+                    ←
+                </button>
+
+                <span id="number">
+                    1 / 4
+                </span>
+
+                <button onclick="nextImage()">
+                    →
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- Lá thư cuối -->
+
+        <div id="finalLetter">
+
+            <h2>💌 Một chút cuối cùng</h2>
+
+            <p>
+                Cảm ơn em vì đã xuất hiện trong cuộc sống của anh.
+            </p>
+
+            <p>
+                Anh không biết món quà này có đủ đặc biệt hay không,
+                nhưng từng chút một trong đây đều là những gì anh
+                muốn dành cho em trong ngày sinh nhật này.
+            </p>
+
+            <p>
+                Mong rằng em sẽ luôn vui vẻ, luôn được yêu thương
+                và có thật nhiều kỷ niệm đẹp trong tuổi mới nhé ❤️
+            </p>
+
+            <p>
+                Hãy thứ lỗi cho người chồng này nhé!
+                Anh không biết có cách nào để làm em quên đi
+                những chuyện buồn, Anh chỉ có thể tạo thêm
+                những kỉ niệm đẹp để những thứ buồn bã đó biến mất ạ❤️
+                Vậy nên em hãy cứ tin ở anh nhé ❤️
+            </p>
+
+            <p>
+                Chúc mừng sinh nhật em 🎂❤️
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
